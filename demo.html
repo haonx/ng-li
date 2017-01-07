@@ -34,7 +34,7 @@
 </head>
 <body ng-app="myApp" ng-controller="myCtrl">
 <div>
-    <div uib-collapse="$index >= limit_current" class="collapse">
+    <div uib-collapse="$index >= limit_current" class="collapse" ng-repeat="item in items">
         <div class="row">
             <blockquote class="col-md-12" style="text-align: left">
                 <div class="col-md-12  administrator">
